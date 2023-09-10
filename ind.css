@@ -1,0 +1,312 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  user-select: none;
+}
+#nav{
+    text-align: center;
+    padding:15px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    
+  }
+.row h4{
+   color:rgb(228, 155, 47);
+   font-family: cursive;
+   margin-top:8px;
+   font-size:40px;
+}
+.row p{    
+   margin-top:18px;
+}
+ 
+.row i{
+     margin-top:15px;
+}
+.row button{
+    margin-left:20px;
+    padding:7px;
+    border-radius:10px;
+    border:2px solid rgb(228, 155, 47);
+    color:rgb(228, 155, 47);
+    font-size:15px;
+    background:white;
+    font-weight:bolder;
+}
+.row i{
+    color:rgb(228, 155, 47) ;
+}
+.row a{  
+    text-decoration: none;
+    color:black;
+    font-weight:bolder;
+}
+
+ 
+/* Look at your far Meals-box */
+#inputbox{
+  background:linear-gradient(rgb(228, 155, 47),rgb(230, 183, 82));
+  height:500px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  margin-bottom:100px;
+   }
+
+#inputbox h4{
+color:white;
+font-family: cursive;
+font-size:35px;
+margin-bottom:20px;
+}
+#inputbox2{
+margin:70px 0 70px 70px;
+}
+#whitebox{
+  background:white;
+  padding:40px;
+}
+#whitebox .Delivery{
+background:rgb(245, 236, 223);
+padding:5px;
+border-radius:5px;
+font-weight: bold;
+color:rgb(252, 151, 0);
+}
+#whitebox .Pickup{
+ color:rgb(160, 160, 159);
+ padding:5px;
+  border-radius:5px;
+  margin:10px;
+ font-weight:bolder;
+}
+#whitebox a {
+text-decoration: none;
+color:white;
+}
+#whitebox input{
+  width:23vw;
+  padding:5px;
+  border-radius:5px;
+  border:solid 1px black;
+  background: rgb(235, 232, 232);
+}
+
+#whitebox button{
+margin-left:20px;
+border-radius:5px;
+border:none;
+color:white;
+font-weight:bolder;
+padding:10px;
+background:rgb(228, 113, 47);
+}
+
+.food  {
+  box-shadow: none;
+width:550px;
+height:440px;
+margin:30px 0 10px 150px;
+  }
+
+
+/*--------images4-------*/
+ #image4 {
+   padding:10px  100px 10px 100px ;
+ 
+}
+#image4 button {
+  border-radius:5px;
+  border:none;
+  background:#ffe1a9;
+  margin-right:40px;
+}
+#image4 h5{
+  margin-left:20px;
+  margin-top:20px;
+}
+ 
+
+/* ------Heading tags------ */
+#heading1{
+    margin-top:150px;
+  background: -webkit-linear-gradient(#a37106, #ffb224);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#tags{  
+  box-shadow: rgb(241, 191, 115) 0px 2px 4px 0px, rgb(235, 204, 137) 0px 2px 16px 0px;
+  text-align: center;
+  padding:40px ;
+  margin-top:50px;
+  margin-bottom:150px;
+
+}
+#tags .col-md-4{
+font-size:30px;
+font-weight:bolder;
+ }
+ #tags  a,.par{  
+    background: -webkit-linear-gradient(#a37106, #ffb224);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   }
+   
+#tags .col-md-4 i{
+  font-size:80px;
+  position: absolute;
+  bottom:2px;
+  left:30px;
+ 
+  }
+ 
+/* -----Search By food----- */
+#roundimg{
+    background:rgb(246, 245, 238);
+    padding:50px 70px 70px 70px;
+ }
+#roundimg img{
+  width:250px;
+  height:250px;
+}
+#roundimg h5{
+   padding:30px;
+   margin-left:60px;
+ }
+ #roundimg h1{
+   margin-bottom:100px;
+ }
+
+
+ /*------Best deals Crispy Tiffen-------*/
+ #Bestdeals{
+  margin-top:100px;
+
+}
+#Bestdeals li{
+  list-style: none;
+  
+}
+#Bestdeals a{
+  font-size:38px;
+  color:rgb(255, 158, 12) ;
+  
+ }
+ #Bestdeals #text-1{
+   padding:110px 0 100px 120px;
+ }
+#Bestdeals img{
+ width:700px;
+ height:400px;  
+ margin-top:40px; 
+}
+#Bestdeals i{
+color:white;  
+font-size:15px;
+
+}
+#Bestdeals .par{
+ width:300px;
+ }
+ 
+#Bestdeals button{
+  border:none;
+  border-radius:5px;
+  color:white;
+  background:rgb(255, 158, 12);
+  margin :40px  40px 0 0 ;
+  padding:10px 70px 10px 70px; 
+ }
+
+
+ /*-----Popular items-------*/
+#PopularItemsh2{
+  text-align:center;
+   margin-top:100px;
+
+}
+#PopularItems{
+text-align:center;
+margin:50px 0 100px 0;
+padding:0 80px 0 80px;
+}
+#PopularItems .row{
+  margin-bottom:100px;
+}
+#PopularItems button{
+ color:white;
+ background:rgb(228, 113, 47) ;
+ border:none;
+ padding:10px 60px 10px 60px ;
+
+ }
+ #PopularItems h5{
+  font-weight: bold;
+  margin:20px;
+ }
+
+/*-----Finalbox-----*/
+ #finalbox{
+  background:black;
+  padding:70px  200px  70px 200px;
+ }
+ #finalbox h5{
+  color:white;
+  padding-bottom:10px;
+ }
+ #finalbox li{
+  list-style: none;
+  padding:5px 0 5px 0;
+  
+ }
+ #finalbox a{
+  color:rgb(155, 151, 151);
+  
+ }
+ #finalbox  button{
+ border:none;
+ color:white;
+  padding:10px;
+ border-radius:5px;
+ background:rgb(235, 162, 4);
+ }
+ #finalbox  i{
+ margin:10px 10px 10px 0;
+ color:rgb(155, 151, 151);
+}
+#finalbox  input{
+ color:rgb(245, 239, 239);
+ background:rgb(80, 79, 79);
+ padding:10px;
+ margin:20px 10px 0 0;
+ border:none;
+ border-radius:5px;
+}
+#finalbox .row{
+   padding:50px 0 50px 0;
+   border-bottom:solid 2px grey;
+   border-top:solid 2px grey;
+ }
+
+ #lastline{
+  display: flex;
+  justify-content:space-between;
+   color:white;
+   margin-top:10px;
+  }
+  #lastline .made{
+    margin-left:200px;
+    }
+
+/*---------gendral-style---------- */
+a:hover{
+opacity:0.6;
+}
+button:hover{
+  opacity:0.7;
+  }
+ img{
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+ }
+  
+ 
+ 
